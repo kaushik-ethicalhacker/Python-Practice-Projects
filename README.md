@@ -1,8 +1,7 @@
 # Python-Practice-Projects
-A collection of Python projects and practice exercises to improve my coding skills.
-
 Welcome to my repository of small Python projects! This collection includes beginner to intermediate-level scripts and mini-games created as part of my daily learning and practice journey.
 
+A collection of Python projects and practice exercises to improve my coding skills.
 
 ## 💡 About
 
