@@ -5,29 +5,29 @@ def choose():
     your_cards = []
     computer_cards = []
 
-    # Deal 2 cards to user
+    
     for k in range(2):
         k = random.choice(cards)
         your_cards.append(k)
     print(f"Your cards: {your_cards}, current score: {sum(your_cards)}")
 
-    # Deal 2 cards to computer
+    
     for c in range(2):
         c = random.choice(cards)
         computer_cards.append(c)
     print(f"Computer's first card: {computer_cards[0]}")
 
-    # Sum scores
+    
     sy = sum(your_cards)
     sc = sum(computer_cards)
 
-    # Initial Blackjack check
+    
     if sy == 21:
         return "You Win!"
     elif sc == 21:
         return "Computer won!"
 
-    # Fix ace if over 21
+    
     if sy > 21 and 11 in your_cards:
         position = your_cards.index(11)
         your_cards[position] = 1
@@ -58,14 +58,14 @@ def choose():
                 computer_cards[computer_cards.index(11)] = 1
                 sc = sum(computer_cards)
 
-    # Final scores
+    
     sy = sum(your_cards)
     sc = sum(computer_cards)
 
     print(f"Your final hand: {your_cards}, final score: {sy}")
     print(f"Computer's final hand: {computer_cards}, final score: {sc}")
 
-    # Final outcome
+    
     if sy > 21:
         return "You went over. Computer wins!"
     elif sc > 21:
