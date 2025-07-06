@@ -6,13 +6,13 @@ def choose():
     computer_cards = []
 
     # Deal 2 cards to user
-    for _ in range(2):
+    for k in range(2):
         k = random.choice(cards)
         your_cards.append(k)
     print(f"Your cards: {your_cards}, current score: {sum(your_cards)}")
 
     # Deal 2 cards to computer
-    for _ in range(2):
+    for c in range(2):
         c = random.choice(cards)
         computer_cards.append(c)
     print(f"Computer's first card: {computer_cards[0]}")
