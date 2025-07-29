@@ -6,15 +6,14 @@ A collection of Python projects and practice exercises to improve my coding skil
 ## 💡 About
 
 This repo contains:
-- Mini Python games 
+- Python games 
 - Coding exercises from courses and tutorials
 - Projects focused on logic, functions, conditionals, and loops
 - Practice scripts to improve problem-solving in Python
 
 ## 🛠 Tools & Technologies
 - Python 3.x
-- IDE: PyCharm / Jupyter / VS Code
-- Libraries: None or basic built-in libraries (e.g., `random`, `time`, `math`)
+- IDE: PyCharm
 
 ## 📚 Purpose
 - Strengthen Python fundamentals  
